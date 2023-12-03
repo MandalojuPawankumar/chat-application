@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>chatappplication</title>
+    <style>
+     .container{
+        width:auto;
+        height:auto;
+     }
+     .header{
+        width:800px;
+        height: 100px;
+        background-color: yellow;
+        padding-top: 20px;
+        display:flex;
+        justify-content: center;
+     }
+     .body{
+        width:800px;
+        height:500px;
+         background-color: aqua;
+     }
+     .footer{
+        display:flex;
+     }
+     form input{
+        width:750px;
+     }
+    
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Welcome to the chat</h1>
+    </div>
+    <div class="body">
+        <div class="message">You:hi</div>
+        <div class="user_message"> use_msg:how are you?</div>
+        <div class="message">You:fine</div>
+        <div class="user_message"> use_msg:how are you?</div>
+    </div>
+    <div class="footer">
+        <form>
+            <input type="text" placeholder="Type Your message">
+            <button class="btn btn-primary">Send</button> 
+        </form>
+    </div>
+</div>
+</body>
+</html>
